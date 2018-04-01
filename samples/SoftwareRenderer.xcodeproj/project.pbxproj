@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		404AF0B320712A7000AA5F8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 404AF0B220712A7000AA5F8C /* AppDelegate.m */; };
+		404AF0B620712A7000AA5F8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 404AF0B520712A7000AA5F8C /* main.m */; };
+		404AF0B820712A7000AA5F8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404AF0B720712A7000AA5F8C /* Assets.xcassets */; };
+		404AF0BB20712A7000AA5F8C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 404AF0B920712A7000AA5F8C /* MainMenu.xib */; };
+		404AF0C520712B2A00AA5F8C /* renderer.c in Sources */ = {isa = PBXBuildFile; fileRef = 404AF0C320712B2A00AA5F8C /* renderer.c */; };
+		404AF0CC207139FA00AA5F8C /* lenna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 404AF0CB207139FA00AA5F8C /* lenna.jpg */; };
+		404AF0D220713E5800AA5F8C /* banana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 404AF0D120713E5800AA5F8C /* banana.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		404AF0AE20712A7000AA5F8C /* SoftwareRenderer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoftwareRenderer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		404AF0B120712A7000AA5F8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		404AF0B220712A7000AA5F8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		404AF0B520712A7000AA5F8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		404AF0B720712A7000AA5F8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		404AF0BA20712A7000AA5F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		404AF0BC20712A7000AA5F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		404AF0C320712B2A00AA5F8C /* renderer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = renderer.c; sourceTree = "<group>"; };
+		404AF0C420712B2A00AA5F8C /* renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = renderer.h; sourceTree = "<group>"; };
+		404AF0C72071305700AA5F8C /* venusl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = venusl.h; sourceTree = "<group>"; };
+		404AF0C82071308900AA5F8C /* ateneal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ateneal.h; sourceTree = "<group>"; };
+		404AF0CB207139FA00AA5F8C /* lenna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lenna.jpg; sourceTree = "<group>"; };
+		404AF0D020713E3200AA5F8C /* banana.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = banana.h; sourceTree = "<group>"; };
+		404AF0D120713E5800AA5F8C /* banana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banana.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		404AF0AB20712A7000AA5F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		404AF0A520712A7000AA5F8C = {
+			isa = PBXGroup;
+			children = (
+				404AF0B020712A7000AA5F8C /* SoftwareRenderer */,
+				404AF0AF20712A7000AA5F8C /* Products */,
+				404AF0CA207139FA00AA5F8C /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		404AF0AF20712A7000AA5F8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				404AF0AE20712A7000AA5F8C /* SoftwareRenderer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		404AF0B020712A7000AA5F8C /* SoftwareRenderer */ = {
+			isa = PBXGroup;
+			children = (
+				404AF0C62071305700AA5F8C /* models */,
+				404AF0C220712B2A00AA5F8C /* lib */,
+				404AF0B120712A7000AA5F8C /* AppDelegate.h */,
+				404AF0B220712A7000AA5F8C /* AppDelegate.m */,
+				404AF0B720712A7000AA5F8C /* Assets.xcassets */,
+				404AF0B920712A7000AA5F8C /* MainMenu.xib */,
+				404AF0BC20712A7000AA5F8C /* Info.plist */,
+				404AF0B420712A7000AA5F8C /* Supporting Files */,
+			);
+			path = SoftwareRenderer;
+			sourceTree = "<group>";
+		};
+		404AF0B420712A7000AA5F8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				404AF0B520712A7000AA5F8C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		404AF0C220712B2A00AA5F8C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				404AF0C320712B2A00AA5F8C /* renderer.c */,
+				404AF0C420712B2A00AA5F8C /* renderer.h */,
+			);
+			name = lib;
+			path = ../../lib;
+			sourceTree = "<group>";
+		};
+		404AF0C62071305700AA5F8C /* models */ = {
+			isa = PBXGroup;
+			children = (
+				404AF0D020713E3200AA5F8C /* banana.h */,
+				404AF0C82071308900AA5F8C /* ateneal.h */,
+				404AF0C72071305700AA5F8C /* venusl.h */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		404AF0CA207139FA00AA5F8C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				404AF0D120713E5800AA5F8C /* banana.jpg */,
+				404AF0CB207139FA00AA5F8C /* lenna.jpg */,
+			);
+			name = Resources;
+			path = SoftwareRenderer/Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		404AF0AD20712A7000AA5F8C /* SoftwareRenderer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 404AF0BF20712A7000AA5F8C /* Build configuration list for PBXNativeTarget "SoftwareRenderer" */;
+			buildPhases = (
+				404AF0AA20712A7000AA5F8C /* Sources */,
+				404AF0AB20712A7000AA5F8C /* Frameworks */,
+				404AF0AC20712A7000AA5F8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoftwareRenderer;
+			productName = SoftwareRenderer;
+			productReference = 404AF0AE20712A7000AA5F8C /* SoftwareRenderer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		404AF0A620712A7000AA5F8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = xiaov;
+				TargetAttributes = {
+					404AF0AD20712A7000AA5F8C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 404AF0A920712A7000AA5F8C /* Build configuration list for PBXProject "SoftwareRenderer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 404AF0A520712A7000AA5F8C;
+			productRefGroup = 404AF0AF20712A7000AA5F8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				404AF0AD20712A7000AA5F8C /* SoftwareRenderer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		404AF0AC20712A7000AA5F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404AF0B820712A7000AA5F8C /* Assets.xcassets in Resources */,
+				404AF0BB20712A7000AA5F8C /* MainMenu.xib in Resources */,
+				404AF0D220713E5800AA5F8C /* banana.jpg in Resources */,
+				404AF0CC207139FA00AA5F8C /* lenna.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		404AF0AA20712A7000AA5F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404AF0B620712A7000AA5F8C /* main.m in Sources */,
+				404AF0B320712A7000AA5F8C /* AppDelegate.m in Sources */,
+				404AF0C520712B2A00AA5F8C /* renderer.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		404AF0B920712A7000AA5F8C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				404AF0BA20712A7000AA5F8C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		404AF0BD20712A7000AA5F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		404AF0BE20712A7000AA5F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		404AF0C020712A7000AA5F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SoftwareRenderer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaov.SoftwareRenderer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		404AF0C120712A7000AA5F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SoftwareRenderer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaov.SoftwareRenderer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		404AF0A920712A7000AA5F8C /* Build configuration list for PBXProject "SoftwareRenderer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				404AF0BD20712A7000AA5F8C /* Debug */,
+				404AF0BE20712A7000AA5F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		404AF0BF20712A7000AA5F8C /* Build configuration list for PBXNativeTarget "SoftwareRenderer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				404AF0C020712A7000AA5F8C /* Debug */,
+				404AF0C120712A7000AA5F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 404AF0A620712A7000AA5F8C /* Project object */;
+}
